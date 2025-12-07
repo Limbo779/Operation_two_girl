@@ -4,7 +4,7 @@ import re
 import json
 
 main_d={}
-for y in range(2,296):
+for y in range(1,296):
     url = f"https://www.tamil2lyrics.com/movie/page/{y}/"       # this will fetch the raw html of the website                                    
     response = requests.get(url)                                # we then use beautifullsoup4 to get the data we want               
     html = response.text                                        #        
@@ -16,7 +16,7 @@ for y in range(2,296):
     movies = movie.find_all("a") # the name of the movie is present in this tag
     movie_list=[]
     for i in movies:
-        movie_list.append(re.sub(r'<.*?>', '', str(i))) # here we are extracting the content inside the tag but we shall get the attribute to
+        movie_list.append(str(i)) # here we are extracting the content inside the tag but we shall get the attribute to
                                                         # get the link for movie 
 
 
@@ -29,16 +29,19 @@ for y in range(2,296):
             count += 1
         else:
             count += 1
-    
-    # below will write the movie and it's year into main_d
+    #below will write the movie and it's year into main_d
     for k in range(len(year_list)):
-        if f'{year_list[k]}' in main_d.keys():
-            main_d[f'{year_list[k]}'] += [((f'{movie_list[k]}').lower()).replace(" ","-")] 
+        if int(year_list[k]) in [2024,2025]:
+            continue
+        elif f'{year_list[k]}' in main_d.keys():
+            main_d[f'{year_list[k]}'] += [((f'{movie_list[k]}').split("/"))[4]] 
         else:
-            main_d[f'{year_list[k]}'] = [((f'{movie_list[k]}').lower()).replace(" ","-")]
+            main_d[f'{year_list[k]}'] = [((f'{movie_list[k]}').split("/"))[4]]
 
     print(f"Page {y} completed")
 
+main_d=dict(sorted(main_d.items(),reverse=True))
+
 # finally we are saving main_d into data.json
-with open('data.json','w') as file:
+with open('year_&_movies.json','w') as file:
     json.dump(main_d,file,indent=4)
