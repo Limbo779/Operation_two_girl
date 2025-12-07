@@ -31,7 +31,7 @@ for y in range(1,296):
             count += 1
     #below will write the movie and it's year into main_d
     for k in range(len(year_list)):
-        if int(year_list[k]) in [2024,2025]:
+        if int(year_list[k]) in [2024,2025,2026,2027,2028]:
             continue
         elif f'{year_list[k]}' in main_d.keys():
             main_d[f'{year_list[k]}'] += [((f'{movie_list[k]}').split("/"))[4]] 
