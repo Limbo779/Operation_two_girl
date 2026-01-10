@@ -85,3 +85,21 @@ En kannaana kanne…</p>
 - now we got this huge database of tamil song's lyrics , we can finally start searching for target
 - we may reduce the possible candidate like excluding pure male vocal , and lyrics with "ponnu","இரட்டை"
 - finally we can manually check the final set of candidates (in the hope that there will be few candidates)
+
+## Phase 1.5 (Search for a side song) 
+- in this sub phase we will try to look for a song based on it's 3 second clipping (Phase_1.5_Target.mp3)
+- maybe this will set some searching skills for the two girl (this is how I'm gonna call the our target song)
+- instead of having clear defined steps we will have different methods 
+
+**(details: )**
+- so this is a pretty famous song with only female vocal (American Artist)
+- this has a story telling element
+- the ending was pretty repetetive
+- in it's video song , after the song is over the artist seems to thank the audience for listening in a seperate recorded clip
+- i once had this song and deleted it because i thought i did not have a taste for the song (my fault , i broke the golden rule of Data Hoarding and lost media hunting . DO NOT DELETE)
+- i finally found this song in (this meme compilation video)[https://youtu.be/vY4nBa_JWrM?t=82] at 1:22
+- Phase_1.5_Target.mp3 is cleaned audio of that 3 second clip
+### Method 1:
+
+- so now my plan is to run some automated script that will search for all american Song with only female vocal and has over 100M view in youtube
+- and use yt-dl to get the first 10 sec of the clip and do some ML stuff to compare the song to find the exact match
