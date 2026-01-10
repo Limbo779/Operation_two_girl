@@ -103,3 +103,10 @@ En kannaana kanne…</p>
 
 - so now my plan is to run some automated script that will search for all american Song with only female vocal and has over 100M view in youtube
 - and use yt-dl to get the first 10 sec of the clip and do some ML stuff to compare the song to find the exact match
+
+## Phase 2 
+- this phase is radio stalking 
+- here we will try to get as much as information about song Radio Airing details , if needed then RJ will be contacted
+
+## Phase 3 
+- use the information from phase 2 to do data hunting for the song
