@@ -1,5 +1,5 @@
 ### 1. Confirmed Details
-*   **The Lyrics (Phonetic & Misheard):**
+*   **The Lyrics:**
     *   **Hook/Chorus:** Repeatedly singing *"Retha ponnu, retha ponnu"* (Start of the song).
     *   **Latter Part:** Lyrics shifted to *"Otha ponnu, Otha ponnu"* (interpreted by you as "one girl").
 *   **The Vocals:**
