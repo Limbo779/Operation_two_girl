@@ -97,7 +97,7 @@ En kannaana kanne…</p>
 - the ending was pretty repetetive
 - in it's video song , after the song is over the artist seems to thank the audience for listening in a seperate recorded clip
 - i once had this song and deleted it because i thought i did not have a taste for the song (my fault , i broke the golden rule of Data Hoarding and lost media hunting . DO NOT DELETE)
-- i finally found this song in (this meme compilation video)[https://youtu.be/vY4nBa_JWrM?t=82] at 1:22
+- i finally found this song in [this meme compilation video](https://youtu.be/vY4nBa_JWrM?t=82) at 1:22
 - Phase_1.5_Target.mp3 is cleaned audio of that 3 second clip
 ### Method 1:
 
@@ -107,7 +107,7 @@ En kannaana kanne…</p>
 - below are the steps for this entire method
 
 #### Step 1
-- so we will have raw data from (this place)[https://metabrainz.org/datasets/postgres-dumps#musicbrainz] where we will extract artist information
+- so we will have raw data from [this place](https://metabrainz.org/datasets/postgres-dumps#musicbrainz) where we will extract artist information
 - then we will make a neat master json for our American Female singer
 
 #### Step 2
