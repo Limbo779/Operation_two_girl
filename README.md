@@ -18,3 +18,4 @@ No, this is definitely not some weird project, nor am I a weird guy. This is jus
 - **Phase 1**: I have fully scraped [this lyrics' website](https://www.tamil2lyrics.com/) which has around 20,000 tamil songs and yet it still doesn't have my target.
 - **Phase 2**: in this phase I will try to collect as much info about radio airing like exact date, time, radio, show name and RJ etc. as this will help the search to narrow down.
 - **Phase 3**: use all the info collected so far to make a datahunt for the song
+- **Phase 1.5**: This is a small side quest where I tried to find a song based on its 3-second clip. This is where I implemented the current data hunting method which will be used in phase 3.
