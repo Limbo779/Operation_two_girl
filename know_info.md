@@ -1,4 +1,4 @@
-### 1. Confirmed Details
+### Confirmed Details
 *   **The Lyrics:**
     *   **Hook/Chorus:** Repeatedly singing *"Retha ponnu, retha ponnu"* (Start of the song).
     *   **Latter Part:** Lyrics shifted to *"Otha ponnu, Otha ponnu"* (interpreted by you as "one girl").
@@ -13,4 +13,3 @@
     *   **Where:** Heard on the **radio** during an 8-hour night drive returning from **JEE institute admission**.
     *   **Personal Era:** Associated with "mid-teenage years" and the start of JEE era
 
-### 2. Even deeper info like timing of journey and most probable radio station (if needed)
