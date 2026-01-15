@@ -6,7 +6,7 @@
 - but let's pray for the best and accept the failure if it occurs
 
 # 09 December 2025
-- lets be real if it is not found then we shall go to two different phases
-- phase 1 : getting data from JioSaavn API and finding the song based on that
-- phase 2 : get the detail of the radio that played the song and time and date of playing to OSINT to find it
+- lets be real if it is not found then we shall go to two different routes
+- route 1 : getting data from JioSaavn API and finding the song based on that
+- route 2 : get the detail of the radio that played the song and time and date of playing to OSINT to find it
 - here is the [perplexity chat for reference](https://www.perplexity.ai/search/load-context-go-jz6rILC7Se6YuuGW2SOmqw#12)
